@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 export const Dove = () => (
   <div>
     <meta charSet="utf-8" />
