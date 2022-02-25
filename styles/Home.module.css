@@ -1,10 +1,48 @@
 .container {
-    font: 9px / 11px monospace;
+    box-sizing: border-box;
+    padding: 2rem;
+    font: 11px / 13px monospace;
     color: rgb(0, 0, 0);
     background: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.wrapper {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    transition: transform 250ms;
     flex-wrap: wrap;
-    height: 100vh;
+}
+
+
+.helpUkraineButton {
+    background-image: linear-gradient( 102.4deg,  rgba(253,189,85,1) 7.8%, rgba(249,131,255,1) 100.3% );
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 5px;
+    font-family: monospace;
+    transition: transform 250ms;
+    background-color: #ffc107;
+    transform-origin: center;
+    white-space: nowrap;
+}
+
+.helpUkraineButton:hover {
+    transform: translate(-50%, -50%) scale(1.05);
 }
