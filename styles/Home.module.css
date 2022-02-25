@@ -1,8 +1,9 @@
 .container {
-  padding: 0 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  font-size: 150px;
+    font: 9px / 11px monospace;
+    color: rgb(0, 0, 0);
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
