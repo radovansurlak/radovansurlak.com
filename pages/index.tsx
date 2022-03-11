@@ -6,7 +6,7 @@ import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   function helpUkraine() {
-    window.location.href = "https://savelife.in.ua/en/donate/";
+    window.location.href = "https://war.ukraine.ua/support-ukraine/";
   }
 
   return (
